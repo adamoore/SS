@@ -1,0 +1,75 @@
+body {
+ background-color: lavender;
+ text-align: center;
+}
+
+h1, h2 {
+ font-family: 'Courier New', Courier, monospace;
+ color: violet;
+}
+
+button {
+font-family: 'Courier New', Courier, monospace;
+font-size: 11.5px;
+border: solid 3px purple;
+border-radius: 0 30px 0 30px;
+height: 80px;
+width: 80px;
+margin: 3px;
+}
+
+.shopping {
+background-color: violet;
+color: white;
+}
+
+.later {
+background-color: violet;
+color: white;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+  border-radius: 0 30px 0 30px;
+}
+
+p {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bolder;
+ color: darkmagenta;
+ font-size: 12px;
+}
+
+.mugs {
+background-color: violet;
+color: white;
+}
+
+.pants{
+background-color: violet;
+color: white;
+}
+
+.hoodies {
+background-color: violet;
+color: white;
+}
+
+.hustle {
+height: 80px;
+width: 80px;
+border-radius: 0 30px 0 30px;
+}
+
+.plusgurl {
+height: 80px;
+width: 80px;
+border-radius: 0 30px 0 30px;
+}
+
+.snakegurl {
+height: 80px;
+width: 80px;
+border-radius: 0 30px 0 30px;
+}
