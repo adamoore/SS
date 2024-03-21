@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: rgb(131, 230, 118);
+    margin-left: 450px;
+}
+
+.calendar-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(250, 162, 224, 0.726);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.day:nth-child(7n) { /* Sunday */
+    grid-column: span;
+}
+
+.day {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: #79c6fad2;
+}
+
+.month {
+    color: cornsilk;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.entry-list {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.entry-list li {
+    margin: 5px;
+    padding: 2px;
+}
+
+.day {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.entry-input {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+
+.entry-input input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.entry-input button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: #007bff;
+    color: #eb41a4;
+    border: none;
+    cursor: pointer;
+}
+
+.entry-input button:hover {
+    background-color: #73d7f5;
+}
